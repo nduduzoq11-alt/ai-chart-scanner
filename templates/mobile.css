@@ -1,0 +1,170 @@
+@media (max-width: 900px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 0 18px;
+  }
+
+  .nav-logo {
+    font-size: 22px;
+  }
+
+  .nav-links,
+  .nav-actions {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-links a,
+  .nav-actions button,
+  .action-btn,
+  .tab-btn {
+    flex: 1 1 auto;
+    min-width: 110px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+
+  .login-card {
+    padding: 28px 18px;
+    border-radius: 18px;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    letter-spacing: 1px;
+    font-size: 11px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 12px 14px;
+  }
+
+  .stats-grid,
+  .dashboard-grid,
+  .details-grid,
+  .grid-2,
+  .cards-grid,
+  .portfolio-grid,
+  .watchlist-grid,
+  .alert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content,
+  .main-panel,
+  .panel,
+  .card,
+  .summary-card,
+  .table-card,
+  .chart-box {
+    padding: 14px;
+  }
+
+  .section-header,
+  .toolbar,
+  .panel-header,
+  .row-between,
+  .action-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .search-row,
+  .form-grid,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .table-wrap,
+  .watchlist-list,
+  .alert-list,
+  .portfolio-list {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    min-width: 540px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 16px;
+  }
+
+  .page {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    min-width: 0;
+  }
+
+  .nav-container {
+    padding: 0 12px;
+  }
+
+  .nav-links a,
+  .nav-actions button {
+    width: 100%;
+  }
+
+  .login-container {
+    padding: 12px;
+  }
+
+  .login-card {
+    padding: 20px 14px;
+  }
+
+  .form-group {
+    margin-bottom: 16px;
+  }
+
+  .form-group input {
+    padding: 12px 14px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .stat-value {
+    font-size: 22px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+  }
+
+  .title,
+  .section-title,
+  .panel-title {
+    font-size: 18px;
+  }
+
+  .chart-canvas {
+    min-height: 220px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
